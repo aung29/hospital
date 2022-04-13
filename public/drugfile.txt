@@ -1,0 +1,1 @@
+[{"id":1,"name":"Alohol","type":"100 g","stock":1100,"price":1},{"id":2,"name":"Ayahuasca","type":"1 mg","stock":200,"price":20},{"id":5,"name":"Cocaine","type":"60 mg","stock":410,"price":8},{"id":6,"name":"Hallucinogens","type":"500 mg","stock":300,"price":22},{"id":7,"name":"Vitamin-C","type":"500 mg","stock":2000,"price":2}]

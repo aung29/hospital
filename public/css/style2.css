@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+.card{
+    border: 1px solid white;
+    border: none;
+}
+.cuscontainers{
+    margin-left: 100px;
+}
+.headers{
+    display: flex;
+    flex-direction: column;
+    
+}
+.title1{
+    color : grey;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.title2{
+    /* margin-bottom: 10px; */
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: -30px;
+}
+
+.title4{
+    color : grey;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: -20px;
+}
+.title3{
+    /* margin-bottom: 10px; */
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    /* margin-top: -30px; */
+}
+
+#name{
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+#name:focus{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+
+#password{
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+
+
+#cfmpassword{
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+
+
+#email{
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+#email:focus{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+input::placeholder {
+    color:#F0F2EF !important;
+    font-size: 15px;
+  }
+#password:focus{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+#cfmpassword:focus{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.forget{
+    margin-left: 100px !important;
+}
+
+#rempw{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.forgetpw{
+    appearance: none;
+    text-decoration: none;
+    color:grey;
+}
+
+#loginbutton{
+    width: 340px;
+    height: 50px;
+    color: white;
+    border-radius: 20px;
+    background-color: #EF6351 ;
+}
+#loginbutton:focus{
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+
+#sign{
+    margin-left: 70px;
+}
+
+.message-bg{
+    width: 100%;
+    height: 50px;
+    background-color: #C2E6CA;
+}
+
+
+.mail-container{
+    width: 600px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tagtitle{
+    margin-top: 30px;
+    font-size: 30px;
+    color: burlywood;
+}
